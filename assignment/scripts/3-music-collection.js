@@ -22,6 +22,8 @@ console.log(collection[4]);
 console.log(collection[5]);
 console.log(collection[6]);
 
+console.log('Display collection after adding albums: ',collection);
+
 function showCollection(collection) {
     for (let i = 0; i < collection.length; i++) {
         console.log(
